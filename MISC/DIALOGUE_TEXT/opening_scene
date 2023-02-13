@@ -1,0 +1,325 @@
+play music: rain, 0.05, -1
+- - - - -
+text: Year: 1989
+- - - - -
+play music: dio_timestop, 0.2, 0
+stop music: rain
+text: Location: Japan
+- - - - -
+change background: raining
+text: “One second has passed.”
+- - - - -
+change background: bridge
+text: “Two seconds have passed.”
+- - - - -
+change background: bridge_closeup
+text: “Three seconds have passed.”
+play music: DIOS_WORLD, 0.1, 0
+- - - - -
+play music: jotaro_hurt, 0.2, 0
+dim background
+change sprite: left, jotaro, neutral, default
+toggle focus: left
+text: -He disappeared? No, that doesn't matter!-
+- - - - -
+text: -All I need is my two seconds in stopped time to drive Star Platinum's fists into your face!-
+- - - - -
+play music: dio_wry, 0.1, 0
+change sprite: right, dio, scared, default
+toggle focus: left
+obscure speaker: True
+toggle focus: right
+text: “Five seconds have passed! Prepare yourself, Jotaro!”
+- - - - -
+obscure speaker: False
+change sprite: right, REMOVE, neutral, default
+toggle focus: left
+text: -What did I come here for? What did I fight for?-
+- - - - -
+text: -Seiko. Is this the end? She's so kind to pass away...-
+- - - - -
+change sprite: right, dio, neutral, default
+toggle focus: left
+obscure speaker: True
+toggle focus: right
+text: "Six seconds have passed!"
+- - - - -
+obscure speaker: False
+change sprite: right, REMOVE, neutral, default
+toggle focus: left
+text: -Think! What can you use around you?-
+- - - - -
+change sprite: right, dio, neutral, default
+toggle focus: left
+obscure speaker: True
+toggle focus: right
+text: "Seven!"
+- - - - -
+play music: jotaro_yarou, 0.1, 0
+obscure speaker: False
+change sprite: right, REMOVE, neutral, default
+toggle focus: left
+text: "... This shadow... what is it that's caus- WHAT THE"
+- - - - -
+dim background
+stop music: DIOS_WORLD
+play music: dio_road_roller, 0.2, 0
+toggle focus: left
+change background: road_roller
+change sprite: left, REMOVE, neutral, default
+text: "A ROAD ROLLER FOR YOU!!!"
+- - - - -
+play music: deep_boom, 1, 0
+change background: black_screen
+text:
+- - - - -
+text: Year: 1987
+- - - - -
+text: Location: Italy
+- - - - -
+change background: house
+text: "Hey, don't make a face. I'm not talking about death."
+- - - - -
+text: "The heaven I'm talking about pertains to our spirits."
+- - - - -
+text: "Surely you understand more than anyone."
+- - - - -
+dim background
+change sprite: left, dio, shadow, default
+toggle focus: left
+text: "True happiness lies there, only if you can reach Heaven."
+- - - - -
+text: "I will do everything to reach that end."
+- - - - -
+change sprite: right, pucci, neutral, 980|900
+toggle focus: left
+toggle focus: right
+text: "Can you be a bit more specific?"
+- - - - -
+play music: dio_hmph, 0.2, 0
+toggle focus: right
+toggle focus: left
+text: "I've recorded it in a notebook."
+- - - - -
+text: "Once you visit Egypt, I will show you then."
+- - - - -
+dim background
+toggle focus: left
+change sprite: right, REMOVE, neutral, default
+change sprite: left, REMOVE, neutral, default
+change background: black_screen
+text: Year: 1989
+- - - - -
+text: Location: Japan
+- - - - -
+change background: dio_road_punch
+play music: rebellion, 0.1, -1
+play music: dio_muda, 0.08, -1
+play music: barrage_loop, 0.05, -1
+text: "MUDAMUDAMUDAMUDAMUDAMUDAMUDA!!!"
+- - - - -
+change background: jotaro_road_punch
+play music: jotaro_rush, 0.6, -1
+text: "ORAORAORAORAORAORAORAORA!!!"
+- - - - -
+change background: dio_closeup
+text: "This is your grave, Jotaro! Ten seconds have passed!"
+- - - - -
+text: "Once I'm done with you, humanity will bow before my might!"
+- - - - -
+stop music: dio_muda
+stop music: jotaro_rush
+stop music: barrage_loop
+play music: dio_die, 0.7, 0
+play music: heavy_smash, 0.15, 0
+change background: bridge
+text: "MUDA!!!"
+- - - - -
+change background: dio_on_roller
+text: "Now then, I suppose I'll find Jotaro's body and drink his blood."
+- - - - -
+text: "If there's any to drink left! Hahaha..."
+play music: dio_laugh, 0.4, 0
+- - - - -
+dim background
+change background: bridge_levelled
+change sprite: left, dio, neutral, default
+toggle focus: left
+stop music: rebellion
+text: "Haha..."
+- - - - -
+text: "Ha- Kwaa!..."
+- - - - -
+text: "What!? I can't move a finger!"
+change sprite: left, dio, scared, default
+play music: dio_bakana, 0.3, 0
+- - - - -
+play music: jotaro_yare, 0.2, 0
+change sprite: right, jotaro, neutral, default
+toggle focus: left
+toggle focus: right
+text: "How does it feel knowing someone is behind you while not being able to move an inch?"
+- - - - -
+text: "I stopped time at the nine second mark, letting me escape."
+- - - - -
+text: "Normally I'd feel pity for beating a man defenseless..."
+- - - - -
+text: "But for you I have no pity at all!"
+- - - - -
+toggle focus: right
+change sprite: left, dio, angry, 300|580
+toggle focus: left
+text: -H-he's mocking me!!-
+- - - - -
+text: -Remember yourself. I am DIO; the gatekeeper of the secrets to Heaven which those Joestar brethren could never reach!-
+- - - - -
+play music: dark_rebirth, 0.15, -1
+change background: dio_diary
+text: "As much as you may think you have the advantage, Jotaro, you are still human!"
+play music: dio_methods, 0.3, 0
+- - - - -
+toggle focus: left
+toggle focus: right
+text: -Dammit, how could I forget that DIO can also move in my stopped time?!-
+- - - - -
+toggle focus: right
+toggle focus: left
+text: "With the power of this diary, I shall become the purest spirit to walk this wasteland!"
+- - - - -
+toggle focus: left
+toggle focus: right
+text: "This is bad! I can't let him try something!"
+play music: jotaro_yarou, 0.3, 0
+- - - - -
+toggle focus: right
+change sprite: right, REMOVE, neutral, default
+change sprite: left, REMOVE, neutral, default
+dim background
+change background: star_platinum
+text: "ORA!"
+play music: jotaro_heavy, 0.2, 0
+- - - - -
+dim background
+change background: bridge_levelled
+change sprite: left, jotaro, assertive, default
+change sprite: right, dio, injured, default
+shake: right, 7
+toggle focus: right
+text: "Krrgh..!"
+play music: heavy_smash, 0.2, 0
+play music: dio_hurt, 0.5, 0
+- - - - -
+text: "You dare touch the relic of a god, Jota-"
+- - - - -
+toggle focus: right
+text: "!!!"
+play music: heaven_book_powers, 0.15, -1
+- - - - -
+play music: jotaro_hurt, 0.15, 0
+change sprite: left, jotaro, star_platinum_glowing, default
+toggle focus: left
+text: "My body is dissolving into light?... but what's with this white aura surrounding Star Platinum?"
+- - - - -
+toggle focus: left
+change sprite: right, dio, neutral, default
+toggle focus: right
+text: "Heh....haha. Fuhahahahaha!"
+- - - - -
+change sprite: left, jotaro, neutral, default
+text: "It seems the book has rejected you, Jotaro! Heaven is only a place for the pure!"
+- - - - -
+text: "I must admit that Star Platinum may be just as powerful as The World..."
+- - - - -
+text: "But true power does not come from having all the world's riches, or the strongest stand."
+- - - - -
+text: "The body and mind may not perceive everything, but the soul retains all."
+- - - - -
+play music: dio_hmph, 0.2, 0
+text: "100 years, Jotaro. 100 years of reflecting, and I've come to a single conclusion."
+- - - - -
+toggle focus: right
+toggle focus: left
+text: -What the hell is he talking about?-
+- - - - -
+toggle focus: left
+toggle focus: right
+text: "And like the light of Apollo's chariot the baths the sun in a new dawn..."
+- - - - -
+play music: dio_weak_weak, 0.2, 0
+text: "It is knowledge that triumphs, and you Joestars will die knowing naught but hell!"
+- - - - -
+stop music: heaven_book_powers
+stop music: dark_rebirth
+toggle focus: right
+toggle focus: left
+text: "DDDIIIOOOOOOOOOO!!!"
+- - - - -
+play music: deep_boom, 1, 0
+toggle focus: left
+change sprite: right, REMOVE, neutral, default
+change sprite: left, REMOVE, neutral, default
+dim background
+change background: black_screen
+- - - - -
+text: "..."
+- - - - -
+text: "..."
+- - - - -
+text: "Ah."
+- - - - -
+text: "Am I dead?"
+- - - - -
+text: -Tap.-
+- - - - -
+text: -It is not an overly complicated question, but I have to put some thought into it.-
+- - - - -
+text: -Tap. Tap. Tap.-
+- - - - -
+text: -Well if I had enough conscious to conceptualize such a question, I guess not.-
+- - - - -
+text: -Tap. Rustle. Tap. Tap.-
+- - - - -
+text: -These sounds are pissing me off!-
+- - - - -
+change sprite: left, jotaro, neutral, default
+toggle focus: left
+play music: jotaro_hurt, 0.2, 0
+change background: alleyway
+dim background
+text: "Argh..."
+- - - - -
+change sprite: right, dio, shadow, default
+toggle focus: left
+toggle focus: right
+obscure speaker: True
+text: "Hey boss, who the hell is that guy?"
+- - - - -
+text: "Huh!? He just popped out of the sky!"
+- - - - -
+text: "Doesn't matter, let's run his pockets!"
+- - - - -
+text: "You with the goofy outfit! Give us the gold chain."
+- - - - -
+play music: synthwave_crusaders, 0.15, -1
+toggle focus: right
+obscure speaker: False
+toggle focus: left
+text: "That's a funny way to spell broke."
+- - - - -
+toggle focus: left
+toggle focus: right
+obscure speaker: True
+text: "What did you say, clown?!"
+- - - - -
+play music: jotaro_yare, 0.2, 0
+toggle focus: right
+obscure speaker: False
+toggle focus: left
+text: "Good grief, you guys got my 800 dollar pants dirty."
+- - - - -
+text: -Looks like I'll have to "interrogate" them to find where I am.-
+- - - - -
+play music: jotaro_stand, 0.15, 0
+change sprite: left, jotaro, assertive, default
+text: "You knuckleheads can't pay back what you owe with money!"
+- - - - -
